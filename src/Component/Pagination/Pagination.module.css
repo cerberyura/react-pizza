@@ -1,0 +1,26 @@
+.root li {
+  display: inline-flex;
+}
+.root a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #fe5f1e;
+  border-radius: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #fe5f1e;
+}
+.root a:hover {
+  transition: 0.2s ease-in;
+  background-color: #fe5f1e;
+  color: white;
+}
+.root :global .selected a {
+  background-color: #fe5f1e;
+  color: white;
+}
+
+/*# sourceMappingURL=Pagination.module.css.map */
